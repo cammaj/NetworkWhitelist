@@ -40,7 +40,8 @@ public final class NetworkWhitelistPlugin {
 
         String username = event.getPlayer().getUsername();
         if (!config.isWhitelisted(username)) {
-            event.setResult(LoginEvent.ComponentResult.denied(Component.text(config.getKickMessage())));
+            Component kickComponent = config.buildKickComponent();
+            event.setResult(LoginEvent.ComponentResult.denied(kickComponent));
         }
     }
 

@@ -1,0 +1,5 @@
+me\cammaj\networkwhitelist\MessageUtil.class
+me\cammaj\networkwhitelist\NetworkWhitelistCommand.class
+me\cammaj\networkwhitelist\NetworkWhitelistPlugin.class
+me\cammaj\networkwhitelist\WhitelistConfig.class
+me\cammaj\networkwhitelist\ConfigManager.class
