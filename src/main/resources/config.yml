@@ -1,0 +1,9 @@
+# Whether the whitelist is currently enabled
+enabled: true
+
+# Message shown to players who are not on the whitelist
+kick-message: "You are not whitelisted on this network."
+
+# Player names that are allowed to join when the whitelist is enabled
+players:
+  - ExamplePlayer

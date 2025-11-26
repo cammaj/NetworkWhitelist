@@ -1,0 +1,9 @@
+{
+  "id": "networkwhitelist",
+  "name": "NetworkWhitelist",
+  "version": "1.0.0",
+  "description": "Network-wide whitelist plugin for Velocity",
+  "authors": ["cammaj"],
+  "dependencies": [],
+  "main": "me.cammaj.networkwhitelist.NetworkWhitelistPlugin"
+}
